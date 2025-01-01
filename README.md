@@ -1,8 +1,15 @@
-# React + Vite
+# Blog Website Using React and Dev.to API
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple blog website built with React.js and the Dev.to API. It allows you to fetch and display blog articles, with infinite scrolling implemented to load more articles as the user scrolls down the page.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Fetches blog posts from the [Dev.to API](https://dev.to/api/articles).
+- Infinite scrolling to load more posts when the user scrolls to the bottom.
+- Display blog post title, description, and a link to the full post.
+  
+## Technologies Used
+
+- **React.js**: Frontend framework.
+- **Dev.to API**: API used to fetch blog posts.
+- **CSS**: For styling the components.
